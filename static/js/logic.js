@@ -65,3 +65,10 @@ d3.json(url, function (data) {
 
 });
 
+
+new_url = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
+d3.json(new_url, function(new_data) {
+  console.log(new_data);
+
+  L.geoJson(new_data).addTo(myMap);
+});
