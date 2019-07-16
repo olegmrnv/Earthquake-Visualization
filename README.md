@@ -7,3 +7,6 @@ As a bonus, borders of tectonic plates are plotted to this map as well. So we ca
 Control function been added to the map as well as legend.
 
 Deployed version: https://olegmrnv.github.io/Earthquake-Visualization/
+
+
+![graphs](static/earthquake.JPG "some of the graphs")
